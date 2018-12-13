@@ -1,0 +1,25 @@
+* {
+    margin: 0%;
+  
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial;
+    font-size: 17px;
+  }
+
+
+  .parallax {
+    /* The image used */
+    background-image: url("/images/thod.jpeg");
+
+    /* Set a specific height */
+    min-height: 600px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
